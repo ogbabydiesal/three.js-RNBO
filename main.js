@@ -101,6 +101,18 @@ scene.add( controls.getObject() );
 							if ( canJump === true ) velocity.y += 350;
 							canJump = false;
 							break;
+						case 'KeyZ':
+							carrier.normalizedValue = Math.random();
+							console.log("pressed key z")
+							break;
+						case 'KeyX':
+							harmonicity.normalizedValue = Math.random();
+							console.log("pressed key x")
+							break;
+						case 'KeyC':
+							modulation.normalizedValue = Math.random();
+							console.log("pressed key c")
+							break;
 
 					}
 
