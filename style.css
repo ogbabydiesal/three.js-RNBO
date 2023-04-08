@@ -1,0 +1,23 @@
+body {
+    margin:0;
+}
+#instructions {
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    top: 200px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 200px;
+    color:white;
+    text-align:center;
+    
+    
+    border-radius:35px;
+    
+    cursor: pointer;
+    border-style:solid;
+    border-color:lime;
+    border-width:1px;
+    box-shadow: 3px 3px 12px lime;
+}
